@@ -73,9 +73,9 @@ class HammingTest < Minitest::Test
   #
   # In your file, it will look like this:
   #
-  module BookKeeping
-    VERSION = 3 # Where the version number matches the one in the test.
-  end
+  # module BookKeeping
+  #   VERSION = 1 # Where the version number matches the one in the test.
+  # end
   #
   # If you are curious, read more about constants on RubyDoc:
   # http://ruby-doc.org/docs/ruby-doc-bundle/UsersGuide/rg/constants.html
