@@ -1,18 +1,11 @@
 class Hamming
   def self.compute(a, b)
-    strands_a = a.chars
-    strands_b = b.chars
+    raise ArgumentError if a.length != b.length
 
-    raise ArgumentError if strands_a.size != strands_b.size
+    strands = a.split(//).zip b.split(//)
 
-    differences = 0
-
-    (0..strands_a.size).each do |index|
-      if strands_a[index] != strands_b[index]
-        differences = differences.next
-      end
+    strands.count do |base_a, base_b|
+      base_a != base_b
     end
-
-    differences
   end
 end
