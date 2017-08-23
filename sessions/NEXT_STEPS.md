@@ -1,7 +1,7 @@
-recap
------
+# Next Steps
 
-- diferença entre block e lambda
-- instance_eval
+- [ ] Start metaprogramming
 
-e iniciar metaprogramming 23/08/2017
+## Done
+
+- [x] Difference between `block` and `lambda`
