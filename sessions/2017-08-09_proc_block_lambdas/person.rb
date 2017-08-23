@@ -5,13 +5,15 @@ class Person
     @name = name
   end
 
-  def self.to_s
-    global_name
-    # > self
-    # > Ancestors
-  end
+  # def name
+  #   @name
+  # end
+
+  # def name=(name)
+  #   @name = name
+  # end
 end
 
 michelle = Person.new('Michelle')
-
-puts Person.global_name
+michelle.name = 'Miika'
+puts michelle.name

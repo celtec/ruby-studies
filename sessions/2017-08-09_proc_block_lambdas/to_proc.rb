@@ -15,7 +15,6 @@ weverton = {
   nickname: nil
 }
 
-
 michelle = OpenStruct.new(michelle)
 leandro = OpenStruct.new(leandro)
 weverton = OpenStruct.new(weverton)
@@ -28,8 +27,6 @@ people = [
 
 people_names = people.map(&:name)
 
-people_names = people.map { |person| person.name }
+# people_names = people.map { |person| person.name }
 
 puts people_names.join(', ')
-
-#puts michelle.method(:name).methods

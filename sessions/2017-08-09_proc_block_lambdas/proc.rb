@@ -1,6 +1,6 @@
 def say_hi_to(block)
-  puts "Say hi #{block.call}"
+  puts "Hi, #{block.call}!"
 end
 
-my_proc = Proc.new { "hasan" }
+my_proc = Proc.new { "Hasan" }
 say_hi_to my_proc

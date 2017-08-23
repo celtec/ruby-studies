@@ -7,6 +7,6 @@ def say_hi_to(age, nickname, &block)
   print "\n"
 end
 
-say_hi_to(40, "ninja") { "Jorge" }
+say_hi_to(40, "ninja") {"Jorge"}
 
 say_hi_to(35, "parazito")
